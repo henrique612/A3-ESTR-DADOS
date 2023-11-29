@@ -5,7 +5,7 @@ import java.io.File;
 public class Teste {
     public static void main(String args[]) {
         Grupos peaple = new Grupos();
-        File file = new File("./Simulations/input03.txt");
+        File file = new File("./Simulations/input02.txt");
         Parser parser = new Parser(file);
         Fila filas = new Fila();
         
