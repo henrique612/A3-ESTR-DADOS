@@ -7,10 +7,20 @@ Hiago Silva Florêncio - 822140407 <br>
 Matheus de Paula Oliveira - 822160889 <br>
 Rodrigo Teru Nakamura - 82211408<br>
 <br>
-Código fonte da implementação em Java:<br>
+ - Explicação da implementação utilizada no projeto e justificativas das estruturas utilizadas:<br>
+<br>
+Implementamos os grupos como uma lista na qual cada elemento é uma arvore ordemeda de nomes para facilitar a busca de indivíduos<br>
+A função existe procura um nome dado no input em cada uma das arvores e retorna true se este nome for encontrado em alguma arvore<br>
+A função conhece busca os dois nomes em cada arvore e retorna true apenas se ambis os nomes existirem na arvore<br>
+A estrutura de fila é uma lista na qual cada elemento é uma outra lista com nomes dos membros naquela fila<br>
+A função chegou passa uma variavel Position que armazena a melhor posição e melhor fila por todas as filas, a melhor posição em cada fila é definida qnd ou é percorrida por completo ou qnd ela passa da melhor posição atual ou qnd encontramos uma posição entre um conhecido da pessoa a chegar e um dewconhecido.<br>
+Após passar por todas as filas alocamos a nova pessoa com base na melhor posição encontrada.<br>
+A função atende procura nas filas pelo ID especificado e remove o primeiro menbro da lista desta fila<br>
+A função desiste  procura nas filas pelo nome de uma pessoa especificado e remove este menbro da lista de sua fila<br>
+A função imprime cria uma string por fila concatenando todos os nomes dos menbros dela e depois mostra na tela, este processo é feito fila a fila<br>
+<br>
+ - Código fonte da implementação em Java:<br>
 <a href="Parser">Código Fonte</a><br>
 <br>
-Entradas utilizadas para simulação com suas respectivas saídas:<br>
+ - Entradas utilizadas para simulação com suas respectivas saídas:<br>
 <a href="Simulations">Simulações</a><br>
-<br>
-Texto contendo explicações da implementação utilizada no projeto e justificativas das estruturas utilizadas:<br>
